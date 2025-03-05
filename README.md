@@ -36,7 +36,7 @@ A path to a .txt file containing the tree structure (e.g., Desktop/project_struc
 
 Example Input
 Create a file (e.g., project_structure.txt) with the following content:
-
+```text
 MyProject/
 ├── docs/
 │   ├── setup.md
@@ -44,7 +44,7 @@ MyProject/
 ├── src/
 │   └── main.py
 └── README.md
-
+```
 Run the script:
 ```bash
 
@@ -53,7 +53,7 @@ Enter project name: MyProject
 Enter tree structure: Desktop/project_structure.txt
 ```
 The script will create the following structure on your Desktop:
-
+```text
 MyProject/
 ├── docs/
 │   ├── setup.md
@@ -61,7 +61,7 @@ MyProject/
 ├── src/
 │   └── main.py
 └── README.md
-
+```
 Installation
 Clone this repository:
 ```bash
