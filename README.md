@@ -24,7 +24,7 @@ This script reads a text file describing a directory structure in a tree-like fo
 ```
 Run the script:
 
-```bash
+    ```bash
 ./create_project.py
 ```
 Follow the prompts:
