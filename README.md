@@ -7,7 +7,7 @@ A Python script to create a directory structure from a text file describing the 
 
 This script reads a text file describing a directory structure in a tree-like format (similar to the output of the `tree` command) and creates the corresponding directories and files on the filesystem. It supports nested structures, folders, and files, and handles inline comments in the input file.
 
-The script was originally developed to create a specific directory structure for an Obsidian-GitHub project, but it can be used for any project structure defined in a similar format.
+
 
 ## Requirements
 
@@ -18,14 +18,16 @@ The script was originally developed to create a specific directory structure for
 
 1. Save the script as `create_project.py`.
 2. Make the script executable:
+
    ```bash
    chmod +x create_project.py
-
+```
 Run the script:
-bash
+
+```bash
 
 ./create_project.py
-
+```
 Follow the prompts:
 Project name: Enter the name of the root directory (e.g., MyProject). The script will create this directory on your Desktop.
 
