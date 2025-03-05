@@ -18,13 +18,11 @@ This script reads a text file describing a directory structure in a tree-like fo
 
 1. Save the script as `create_project.py`.
 2. Make the script executable:
-
-   ```bash
-   chmod +x create_project.py
+```bash
+chmod +x create_project.py
 ```
-Run the script:
-
-    ```bash
+3. Run the script:
+ ```bash
 ./create_project.py
 ```
 Follow the prompts:
